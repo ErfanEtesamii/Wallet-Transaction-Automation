@@ -1,0 +1,59 @@
+{
+  "excel_path": "data/UnionTransactionChains2.xlsx",
+  "log_file": "logs/app.log",
+  "screenshot_dir": "logs/screenshots",
+  "telegram_enabled": true,
+  "telegram_min_interval_sec": 2,
+  "save_every_n_wallets": 1,
+  "limits": {
+    "holesky_target": 500,
+    "babylon_target": 500,
+    "xion_target": 500,
+    "sei_target": 200,
+    "max_fail_streak": 10
+  },
+  "amounts": {
+    "choices": ["0.001", "0.0001", "0.00001", "0.000001"],
+    "holesky": "0.00001",
+    "babylon": "0.000001",
+    "xion": "0.000001",
+    "sei": "0.000001"
+  },
+  "intervals": {
+    "min": 50,
+    "max": 60
+  },
+  "urls": {
+    "sei_xion": "https://app.union.build/transfer?source=1328&destination=xion-testnet-2&asset=0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee&receiver=0xfe594e66161ccbe5cc87d64897e264d4a6ccd918&amount=",
+    "xion_bab": "https://app.union.build/transfer?source=xion-testnet-2&destination=bbn-test-5&asset=0x7578696f6e&receiver=0xa6dbffd631345b201abec900c6434287e69d08ec&amount=",
+    "xion_hol": "https://app.union.build/transfer?source=xion-testnet-2&destination=17000&asset=0x7578696f6e&receiver=0x92ba0354253db4ec5f71ed1c27655bfe1b9ce5fc&amount=",
+    "xion_sei": "https://app.union.build/transfer?source=xion-testnet-2&destination=1328&asset=0x7578696f6e&receiver=0x92ba0354253db4ec5f71ed1c27655bfe1b9ce5fc&amount="
+  },
+  "coords": {
+    "browser_address_bar": [1084, 59],
+    "keplr_icon": [1771, 61],
+    "keplr_search": [1530, 177],
+    "keplr_submit": [1516, 286],
+    "rabby_icon": [1733, 64],
+    "rabby_search": [1476, 231],
+    "rabby_submit": [1487, 279],
+    "chain_home": [92, 55],
+    "transfer_button": [1191, 633],
+    "approve_button": [1248, 683],
+    "final_confirm_button": [1241, 674],
+    "amount_field_click": [1084, 583],
+    "amount_field_click_2": [1069, 572],
+    "human_check": [485, 374],
+    "human_check_confirm": [533, 374],
+    "approve_click": [1181, 683],
+    "approve_click_2": [1248, 683],
+    "sepolia_approve": [1551, 724],
+    "normal_approve": [1558, 668]
+  },
+  "colors": {
+    "final_button_color": [244, 244, 245],
+    "approve_button_color": [44, 75, 226],
+    "sepolia_approve_button_color": [112, 132, 255],
+    "human_check_dark_color": [34, 34, 34]
+  }
+}
