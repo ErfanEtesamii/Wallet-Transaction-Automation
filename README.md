@@ -7,7 +7,7 @@
 I built this project as a UI-based automation tool for repetitive wallet transaction workflows.  
 It uses Python to automate browser actions, manage wallet progress in Excel, and keep track of transaction counts across multiple chains.
 
-I originally made it as a personal challenge to see how far I could push desktop automation in a real workflow. The script is built around the exact UI coordinates that were valid at the time I wrote it, so it reflects the interface state from that period rather than a current production setup. [web:55][web:85]
+I originally made it as a personal challenge to see how far I could push desktop automation in a real workflow. The script is built around the exact UI coordinates that were valid at the time I wrote it, so it reflects the interface state from that period rather than a current production setup.
 
 ## What I Built
 
@@ -26,7 +26,7 @@ I built a script that can:
 I read wallet records from an Excel file and select an incomplete wallet at random.  
 Then I switch to that wallet in the browser, open the relevant transfer flow, and automate the approval and confirmation steps using the original coordinates and color checks from my working version.
 
-After each wallet run, I save the updated transaction counters back into the spreadsheet so progress is never lost if the script stops unexpectedly. For a portfolio project, this kind of explanation is useful because it shows what the project does, what decisions I made, and what technical problem I solved. [web:85][web:87]
+After each wallet run, I save the updated transaction counters back into the spreadsheet so progress is never lost if the script stops unexpectedly. For a portfolio project, this kind of explanation is useful because it shows what the project does, what decisions I made, and what technical problem I solved.
 
 ## Project Structure
 
@@ -118,7 +118,7 @@ I save logs to:
 logs/app.log
 ```
 
-I also support Telegram logging for important messages, but I keep it rate-limited so it does not spam. I prefer this because long-running automation jobs need clear visibility without overwhelming the notification channel. [web:80][web:86]
+I also support Telegram logging for important messages, but I keep it rate-limited so it does not spam. I prefer this because long-running automation jobs need clear visibility without overwhelming the notification channel.
 
 ## Notes
 
