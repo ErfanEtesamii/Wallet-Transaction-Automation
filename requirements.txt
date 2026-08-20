@@ -1,7 +1,6 @@
 pyautogui
 pyperclip
 requests
-pandas
 openpyxl
 python-dotenv
 keyboard

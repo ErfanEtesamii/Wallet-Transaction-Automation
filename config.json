@@ -4,7 +4,7 @@
   "screenshot_dir": "logs/screenshots",
   "telegram_enabled": true,
   "telegram_min_interval_sec": 2,
-  "save_every_n_wallets": 1,
+  "auto_shutdown": false,
   "limits": {
     "holesky_target": 500,
     "babylon_target": 500,
